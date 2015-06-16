@@ -1,0 +1,11 @@
+Config {
+  overrideRedirect = False,
+  commands = [
+    Run StdinReader,
+    Run Locks,
+    Run DynNetwork [] 50,
+    Run Weather "KHWD" [] 6000,
+    Run Date "%a %b %_d %H:%M" "date" 100
+    ],
+  template = "%StdinReader% }{ %locks% [%dynnetwork%] [%KHWD%] [%date%]"
+}

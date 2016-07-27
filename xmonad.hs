@@ -3,11 +3,8 @@ import XMonad.Config.Desktop
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.EwmhDesktops
 import XMonad.Hooks.ManageDocks
-import XMonad.Util.Run
 
 import Control.Exception
-import System.Process
-import System.Posix
 
 import qualified Data.Map as M
 

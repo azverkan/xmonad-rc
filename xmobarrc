@@ -1,4 +1,5 @@
 Config {
+  position = TopP 0 160
   overrideRedirect = False,
   commands = [
     Run StdinReader,

@@ -1,0 +1,6 @@
+background black
+icon_size 16
+geometry 10x1-0+0
+grow_gravity E
+icon_gravity E
+window_strut none
